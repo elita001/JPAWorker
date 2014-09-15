@@ -1,0 +1,40 @@
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:34] Start mapper
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:43] New class classes.NewClass from annotation created
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:48] Instance of new class classes.NewClass created
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:52] Start checking fields
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:115] Name of new field newSC taken from annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:120] New field newSC taken
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:122] Set fields accessible
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:126] Check field's class classes.SubOldClass for annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:130] Annotation exist. Start mapper recursion
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:34] Start mapper
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:43] New class classes.SubNewClass from annotation created
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:48] Instance of new class classes.SubNewClass created
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:52] Start checking fields
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:115] Name of new field newSSC taken from annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:120] New field newSSC taken
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:122] Set fields accessible
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:126] Check field's class classes.SubSubOldClass for annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:130] Annotation exist. Start mapper recursion
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:34] Start mapper
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:43] New class classes.SubSubNewClass from annotation created
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:48] Instance of new class classes.SubSubNewClass created
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:52] Start checking fields
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:115] Name of new field newD taken from annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:120] New field newD taken
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:122] Set fields accessible
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:126] Check field's class int for annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:138] No annotation. Set old field oldInt to new field newD
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:115] Name of new field newString taken from annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:120] New field newString taken
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:122] Set fields accessible
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:126] Check field's class java.lang.String for annotation
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:138] No annotation. Set old field oldString to new field newString
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:55] Checking fields ended
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:89] End mapper
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:133] Set old field oldSSC to new field newSSC after mapping
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:55] Checking fields ended
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:89] End mapper
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:133] Set old field oldSC to new field newSC after mapping
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:55] Checking fields ended
+2014-08-28 10:05:11 INFO [main] classes.Mapper.file_logger [Mapper.java:89] End mapper
