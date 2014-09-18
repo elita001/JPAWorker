@@ -26,11 +26,11 @@ public class TestDAO {
 		logger.debug("Start examples");
 
 		// Test custom services
-		CustomServicesImpl csi = new CustomServicesImpl();
-		List<Car> servicedCars = csi.getServicedCars();
-		Car firstServicedCar = servicedCars.get(0);
-		logger.debug("Get list of serviced Cars. Example: first Car with id "
-				+ firstServicedCar.getCarID());
+		//CustomServicesImpl csi = new CustomServicesImpl();
+		//List<Car> servicedCars = csi.getServicedCars();
+		//Car firstServicedCar = servicedCars.get(0);
+		//logger.debug("Get list of serviced Cars. Example: first Car with id "
+		//		+ firstServicedCar.getCarID());
 
 		// Test DomainDAO
 		// Test getOne():

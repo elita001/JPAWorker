@@ -28,11 +28,12 @@ public class CustomServicesImpl implements CustomServices{
 	@SuppressWarnings("unchecked")
 	@Override
 	public List<Car> getServicedCars() {
-		Query query = em.createQuery("SELECT c FROM cars c WHERE c.status = :status")
-				.setParameter("status", "processing").setFirstResult(0).setMaxResults(100);
-		List<Car> result = new ArrayList<Car>();
-		query.getResultList().stream().forEach(entity -> result.add(mapper.map(entity, Car.class)));
-		return result;
+		//Query query = em.createQuery("SELECT c FROM cars c WHERE c.status = :status")
+		//		.setParameter("status", "processing").setFirstResult(0).setMaxResults(100);
+		//List<Car> result = new ArrayList<Car>();
+		//query.getResultList().stream().forEach(entity -> result.add(mapper.map(entity, Car.class)));
+		//return result;
+		return 0;
 	}
 
 	@Override
