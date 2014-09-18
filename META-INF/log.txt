@@ -1,4 +1,0 @@
-2014-09-15 15:19:33,784 DEBUG [main] app.Logger [TestDAO.java:29] Start examples
-2014-09-15 15:19:33,879 DEBUG [main] app.Logger [Mapper.java:68] Start adding classmaps
-2014-09-15 15:19:33,942 DEBUG [main] app.Logger [Mapper.java:116] End adding classmaps
-2014-09-15 15:19:37,197 DEBUG [main] app.Logger [TestDAO.java:33] Get Car with id 5: mileage=1000; model=Model5; number=5
