@@ -33,7 +33,7 @@ public class CustomServicesImpl implements CustomServices{
 		//List<Car> result = new ArrayList<Car>();
 		//query.getResultList().stream().forEach(entity -> result.add(mapper.map(entity, Car.class)));
 		//return result;
-		return 0;
+		return null;
 	}
 
 	@Override
